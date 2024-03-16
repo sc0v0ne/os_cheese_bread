@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-echo "Initialize install packages"
+echo "Initialize installation packages"
 
 
 function snap_install {
@@ -35,8 +35,6 @@ libs_ok=()
 libs_fail=()
 libs=(
     "build-essential"
-    "tilix"
-    "vim"
     "python3-pip"
     "libssl-dev"
     "zlib1g-dev"
@@ -83,6 +81,13 @@ function show_fails (){
 show_fails "${libs_fails[@]}"
 
 
+function install_brew {
+    sudo apt update
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    brew install vim
+    brew install pyenv
+}
 
+install_brew
 
 echo "Finish install packages"
