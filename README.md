@@ -6,6 +6,20 @@ Installation script for Ubuntu-based distributions and for Ubuntu. Prepare devel
 
 - [System 76 - Pop!_OS](https://pop.system76.com)
 
+## Install
+
+```bash
+
+git clone git@github.com:sc0v0ne/os_cheese_bread.git
+
+cd os_cheese_bread
+
+./init.sh
+
+
+```
+
+
 ## List Libs
 
 - [Homebrew](https://brew.sh)
