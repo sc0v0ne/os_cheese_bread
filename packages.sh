@@ -21,6 +21,7 @@ function check_snap {
 
 function packages_snap {
     sudo snap install cloudcompare
+    sudo snap install spotify
     sudo snap install postman
     sudo snap install obsidian --classic
     sudo snap install todoist

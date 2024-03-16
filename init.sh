@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-echo "Initializar Pipeline OS"
+echo "Initialize Pipeline OS"
 
 function init_update {
     sudo apt update -y
@@ -8,7 +8,8 @@ function init_update {
 }
 
 init_update
-
-
-
 source packages.sh
+source terminal.sh
+
+
+echo "Finish Pipeline OS"
