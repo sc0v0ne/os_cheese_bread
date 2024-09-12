@@ -50,6 +50,13 @@ cd os_cheese_bread
 
 - [Vivaldi](https://vivaldi.com)
 
+# Supreme Terminal
+
+##  File Managers
+
+- [11 Terminal File Managers for Superior File Organization
+](https://itsfoss.com/terminal-file-managers/)
+
 ## Oh-my-zsh Setup - .zshrc
 
 ```text
@@ -125,7 +132,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git docker docker-compose git-commit git-extras brew poetry python vscode zsh-autosuggestions  zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
